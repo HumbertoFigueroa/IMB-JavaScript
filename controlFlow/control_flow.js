@@ -46,3 +46,9 @@ if (userRole === "admin") {
     }
 
     console.log("User Category:", userCategory);
+
+    let isAuthenticationStatus = true;
+
+    let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
+
+    console.log("Authentication Status:", authenticationStatus);
